@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:blanchedalmond;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color:cornsilk;
+}
+
+.wrapper {
+    border: dashed 1px 1px 1px 1px green;
+    background-color: green;
+    /*This image has a Zillow property for its source.*/
+  }
+  
+  .park {
+      width: 900px;
+      height: 600px;
+      border: dotted 8px;
+      z-index: -1;
+      background-image: url(/img/Pooch-Lake.webp) alt="A picture of Lake Michigan in Chicago.";
+      background-color: aqua;
+    }
+
+  .island {
+      width: 95px;
+      height: 65px;
+      position: relative;
+        z-index: 4;
+      border-color: red;
+      border-radius: 50px 0 0 50px;
+      position: relative;
+      top: 3em;
+      left: 3em;
+     } 
+  
+  #collar {
+    width: 45px;
+    height: 45px;
+    border: solid 18px black;
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+    border-right: 5rem;
+    /*padding: 2px;*/
+   
+  }
+  
+  #mydiv {
+    position: absolute;
+    z-index: 6;
+    width: 95px;
+    height: 85px;
+    object-position: 75% 20%;
+   /* background-radius: 50px 50px 50px 50px;*/
+    text-align: center;
+  }
+  
+  #mydivheader {
+    cursor: move;
+    z-index: 3;
+     width: 355px;
+    height: 225px;
+    background-image: url(./img/spot-smallest.gif);
+    color: orangered;
+     text-align: center;
+  }
